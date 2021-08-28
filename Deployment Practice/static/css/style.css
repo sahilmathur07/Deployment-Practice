@@ -1,0 +1,501 @@
+body
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* navigation */
+ .bg-img
+{
+  background-image: url(../Images/1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.nav
+{
+  padding-top: 20px;
+}
+.navbar-brand a
+{
+  color: white;
+  margin-left: 35px;
+  font-size: 30px;
+  font-family: 'Lora', serif;
+  text-transform: uppercase;
+  margin-top: -5px;
+  letter-spacing: 2px;
+}
+.navbar-brand a p
+{
+  font-size: 20px;
+  font-family: 'Srisakdi', cursive;
+  text-transform: lowercase;
+  margin-top: -10px;
+  margin-left: 55px;
+}
+.nav ul
+{
+  font-size: 15px;
+  margin-left: 230px;
+}
+.nav ul li
+{
+  margin-left: 25px;
+}
+.nav ul li a
+{
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+}
+.btn-primary
+{
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  border-radius: 0px;
+  border-color: white;
+  font-size: 13px;
+  letter-spacing: 2px;
+  padding: 13px 25px 13px 25px;
+  margin: 8px 0px 0px 230px;
+  font-weight: bold;
+}
+.btn-primary:hover
+{
+  background: transparent;
+  border: 1.5px solid white;
+}
+
+/* header */
+.header
+{
+  text-align: center;
+  color: white;
+}
+header h6
+{
+  margin-top: 110px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.header h1
+{
+  margin-top: 20px;
+  font-size: 100px;
+  font-family: 'Lora', serif;
+}
+.header p
+{
+  margin-top: 20px;
+  color: white;
+}
+.header a
+{
+  color: white;
+  border-bottom: 1px solid white;
+  letter-spacing: 2px;
+}
+a:hover
+{
+  text-decoration: none;
+}
+
+/* dining */
+.dining
+{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.dining h6
+{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: 	#989898;
+}
+.dining img
+{
+  width: 600px;
+  height: 400px;
+  margin-left: -100px;
+}
+.welcome
+{
+  margin-left: -100px;
+}
+.dining h2
+{
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: 'Lora', serif;
+  font-size: 50px;
+}
+.dining p
+{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.dining .btn
+{
+  margin-left: 250px;
+  border-radius: 0px;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #00FFFF;
+  color: white;
+}
+.dining .btn:hover
+{
+  background: transparent;
+  color: #00FFFF;
+  border: 1.5px solid #00FFFF;
+}
+
+  /* come section */
+
+.come_c
+  {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.5)), url(../Images/3.jpg);
+    background-position: center;
+    width: 100%;
+    height: 350px;
+    color: white;
+    text-align: center;
+  }
+.come_c h5
+{
+  padding-top: 100px;
+}
+.come_c h1
+{
+  font-family: 'Roboto Slab', serif;
+  padding-top: 50px
+}
+
+/* menu */
+.menu p:first-of-type
+{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-top: 70px;
+  color: 	#989898;
+  letter-spacing: 3px;
+}
+.menu h1
+{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+.menu h6
+{
+  text-align: center;
+  color: black;
+  font-weight: lighter;
+  padding-top: 30px;
+}
+.menu
+{
+  padding-bottom: 100px;
+}
+table tr
+{
+  border-bottom: 1px solid 	#C0C0C0;
+}
+table tr td
+{
+  font-size: 18px;
+  padding: 20px 0px 20px 0px;
+}
+.first
+{
+  margin-left: 150px;
+}
+.second
+{
+  margin-left: 80px;
+}
+.item
+{
+  width: 500px;
+}
+.price
+{
+  float: right;
+}
+
+/* bookings */
+.bookings
+{
+  background-image: url(../Images/4.jpg);
+  width: 100%;
+  height: 350px;
+  text-align: center;
+  color: white;
+}
+.bookings h5
+{
+  padding-top: 100px;
+}
+.bookings h1
+{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Lora', serif;
+  margin-top: 80px;
+}
+
+/* team */
+.team
+{
+  padding: 50px 0px 50px 0px;
+}
+.team img
+{
+  width: 300px;
+  height: 450px;
+}
+#img-1
+{
+  margin-right: -200px;
+}
+#img-2
+{
+  margin-right: -185px;
+}
+.the-team
+{
+  margin-left: -80px;
+  text-align: center;
+}
+.the-team h6
+{
+  padding: 50px 0px 30px 0px;
+}
+.the-team h1
+{
+  padding: 0px 0px 30px 0px;
+  font-family: 'Lora', serif;
+}
+.the-team p
+{
+  padding-bottom: 30px;
+}
+.the-team .btn
+{
+  text-transform: capitalize;
+  border-radius: 0px;
+  padding: 10px 25px 10px 25px;
+  background-color: #00FFFF;
+  color: white;
+  font-size: 15px;
+}
+.the-team .btn:hover
+{
+
+  background: transparent;
+  color: #00FFFF;
+  border: 1px solid #00FFFF;
+}
+
+.testimonials
+{
+  background-image: url(../Images/7.jpg);
+  background-position: center;
+  width: 100%;
+  height: 550px;
+  color: white;
+  text-align: center;
+}
+.testimonials h4
+{
+  text-transform: uppercase;
+  padding: 70px 0px 30px 0px;
+}
+.testimonials p
+{
+  width: 700px;
+}
+.testimonials h1
+{
+  text-transform: capitalize;
+  padding: 0px 0px 50px 0px;
+}
+.testimonials h5
+{
+  font-size: 30px;
+}
+.testimonials hr
+{
+  width: 90px;
+  border: 2px solid white;
+  margin-top: 70px;
+}
+.testimonials p
+{
+  color: white;
+  margin-left: 410px;
+}
+
+/* reservation */
+.reservation
+{
+  padding: 60px 0px 60px 0px;
+}
+.reservation h1
+{
+  text-align: center;
+  font-family: 'Lora', serif;
+  padding: 0px 0px 50px 0px;
+}
+.reservation .events
+{
+  margin-right: -100px;
+}
+.reservation .events h6
+{
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.reservation .private-dinning
+{
+  margin-left: -100px;
+}
+.reservation .private-dinning h6
+{
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.form-control
+{
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+input[type="text"]
+{
+    border-radius: 0px;
+    padding: 10px 10px 10px 10px;
+    background-color: #F5F5F5;
+}
+.reservation .first
+{
+  margin-left: 100px;
+}
+textarea
+{
+  margin-left: 100px;
+  padding: 10px 15px 10px 15px;
+  background-color: #F5F5F5;
+}
+.reservation .btn
+{
+  text-transform: capitalize;
+  border-radius: 0px;
+  padding: 10px 25px 10px 25px;
+  background-color: #00FFFF;
+  color: white;
+  font-size: 15px;
+  margin: 20px 0px 0px 650px;
+  letter-spacing: 2px;
+}
+.reservation .btn:hover
+{
+  background: transparent;
+  color: #00FFFF;
+  border: 1px solid #00FFFF;
+}
+
+/* footer */
+footer
+{
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  color: white;
+}
+footer a
+{
+  color: white;
+  margin-left: 35px;
+  font-size: 30px;
+  font-family: 'Lora', serif;
+  text-transform: uppercase;
+  margin-top: -5px;
+  letter-spacing: 2px;
+}
+footer a:hover
+{
+  color: white;
+}
+footer a p
+{
+  font-size: 20px;
+  font-family: 'Srisakdi', cursive;
+  text-transform: lowercase;
+  margin-top: -10px;
+  margin-left: 40px;
+}
+footer .text
+{
+  color: 	#A8A8A8;
+  margin-top: -25px;
+}
+.address ul
+{
+  list-style: none;
+  margin-top: 50px;
+  color: 	#A8A8A8;
+}
+.address h6
+{
+  margin-left: 40px;
+}
+.hours ul
+{
+  list-style: none;
+  margin-left: -40px;
+  margin-top: 40px;
+  color: 	#A8A8A8;
+}
+.more ul
+{
+  list-style: none;
+  margin-left: -30px;
+  margin-top: 40px;
+  color: 	#A8A8A8;
+}
+.more ul li
+{
+  margin-bottom: 20px;
+}
+.social
+{
+  color: #A8A8A8;
+  margin-top: -12px;
+  font-size: 13px;
+  margin-left: 750px;
+}
+.social i
+{
+  margin-left: 10px;
+}
+footer .form-inline p
+{
+  color: #A8A8A8;
+  font-size: 13px;
+  margin-left: 200px;
+}
+footer .form-inline
+{
+  margin-top: 20px;
+}
